@@ -1,0 +1,74 @@
+@import './theme';
+
+.t-input-box{
+    display: inline-block;
+    .t-input-wrap{ 
+        width: 100%;
+        min-height: 30px;
+        line-height: 20px;
+        border-radius: 3px;
+        box-sizing: border-box;
+        transition: .3s ease-in-out;
+        border: 1px solid $borderColor;
+        padding: 5px;
+        display: inline-block;
+        &.error{
+            border-color: red;
+        }
+        &.focus:not(.error){
+            box-shadow: 0 0 5px $themeColor;
+        }
+        &.error.focus{
+            box-shadow: 0 0 5px red;
+        }
+        &:not(.error):hover{
+            border-color: $themeColor;
+        }
+        .text-overflow {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            -o-text-overflow: ellipsis;
+            overflow: hidden;
+        }
+        .t-input-tag{
+            display: inline-block;
+            position: relative;
+            margin-right: 5px; 
+            max-width: 45%;
+            font-size: 13px;
+            padding: 0 20px 0 10px;
+            background: #f3f3f3;
+            border-radius: 4px;
+            color: $color;
+            transition: .4s; 
+            vertical-align: middle;
+    
+            .t-input-remove{
+                position: absolute;
+                cursor: pointer;
+                width: 10px;
+                right: 2px;
+                top: -1px;
+            } 
+        }
+        input[type="text"]{
+            outline: none;
+            border: none;
+            min-width: 50px;
+        }
+    }
+    .errTip{
+        margin-left: 5px;
+        font-size: 13px;
+        vertical-align: bottom;
+    }
+}
+
+
+
+
+
+
+
+
+
