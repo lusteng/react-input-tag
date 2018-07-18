@@ -21,9 +21,9 @@ class TagsInput extends React.Component {
     }
         
     componentWillReceiveProps(nextProps){
-        if(!fromJS(this.props.tags).equals(nextProps.tags)){
+        if(this.props.defaultTags && !fromJS(this.props.defaultTags).equals(nextProps.defaultTags)){
             this.setState({
-                tags: nextProps.tags || [],
+                tags: nextProps.defaultTags || [],
                 error: this.vertifyTaginRule(nextProps.defaultTags || [])
             });
         }
