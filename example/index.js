@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import TagsInput from '../src'
-import Select, {Option, OptGroup} from 'rc-select';
+import TagsInput from '../src' 
 
 const paddingLeft = "20px"; 
 const preStyle = {

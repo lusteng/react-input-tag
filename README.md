@@ -1,14 +1,16 @@
 react tags automatic input component.
 
-## Demo
-
-look up example/index.html  
-
 ## Installation
 
 ```bash
-npm install react-input-tag
+npm i react-input-tag -S
 ```
+
+## Demo
+![image](https://github.com/lusteng/react-input-tag/blob/master/images/react-input.gif)
+
+## Demo link 
+[http://www.liubaitong.com/reactinput/index.html](http://www.liubaitong.com/reactinput/index.html)
 
 ## Usage
 
@@ -37,14 +39,14 @@ class App extends React.Component {
 
 ## API
 
-| Prop                                  | Type              | Default                                                                                  | Description                                                                                                                                                                                                               |
-| ------------------------------------- | ----------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| defaultTags                           | array              | []                                                                                       | 组件初始显示标签项   |
-| onChange                              | func               | **Required**                                                                             | 组件标签项发生改变时触发的回调函数  |
-| placeholder                           | string             | ""                                                                                    | 组件placeholder |
-| rule                                  | object             |  null                                                                                    | 校验标签内容正则 |   
-| errTip                                | string             |  ""                                                                                      | 标签内容不匹配正则时的提示语，默认不提示 |
-| fullColor                             | bool               |  false                                                                                   | 随机彩色标签  |   
+| Prop | Type | Default | Description |
+| --- | --- | --- | --- |
+| defaultTags | array | [] | 组件初始显示标签项 |
+| onChange | func | **Required** | 组件标签项发生改变时触发的回调函数 |
+| placeholder | string | "" | 组件placeholder |
+| rule | object |  null | 校验标签内容正则 |   
+| errTip | string | "" | 标签内容不匹配正则时的提示语，默认不提示 |
+| fullColor | bool | false | 随机彩色标签 |   
 
  
 

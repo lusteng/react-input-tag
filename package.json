@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "dev": "webpack --define process.env.NODE_ENV=development && webpack-dev-server --inline",
+    "build": "webpack",
     "clean": "rimraf lib && mkdir lib",
     "lib": "npm run clean && rollup -c"
   },
