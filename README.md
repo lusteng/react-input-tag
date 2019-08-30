@@ -10,7 +10,7 @@ npm i react-input-tag -S
 ![image](https://github.com/lusteng/react-input-tag/blob/master/images/react-input.gif)
 
 ## Demo link 
-[http://www.liubaitong.com/reactinput/index.html](http://www.liubaitong.com/reactinput/index.html)
+[Look example](http://www.liubaitong.com/reactinput/index.html)
 
 ## Usage
 
